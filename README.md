@@ -91,5 +91,5 @@ das ist ein Beispiel auf root Basis der auch jede 3 Minuten ausgeführt wird
 für ein Tägliches Backup Diesen befehl nutzen
 
 
-* 0 * * * /home/username/gameserver monitor > /dev/null 2>&1
+. * 0 * * * /home/username/gameserver monitor > /dev/null 2>&1
 
