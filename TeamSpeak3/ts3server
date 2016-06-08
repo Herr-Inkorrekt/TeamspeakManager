@@ -1,8 +1,6 @@
 #!/bin/bash
 # Teamspeak 3
-# Server Management Script
-# Author: Daniel Gibbs
-# Website: https://gameservermanagers.com
+
 if [ -f ".dev-debug" ]; then
 	exec 5>dev-debug.log
 	BASH_XTRACEFD="5"
