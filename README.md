@@ -15,21 +15,30 @@ und
 
 sudo dpkg --add-architecture i386; sudo apt-get install lib32gcc1 libstdc++6:i386
 
-Neuen User Anlegen
+
+
+
+#Neuen User Anlegen
 
 adduser ts3server
 
 su - ts3server
 
-Als nächstes die Datei runter-laden und Rechte setzten
+
+
+
+#Als nächstes die Datei runter-laden und Rechte setzten
 
 wget https://raw.githubusercontent.com/Blacktiger21/TeamspeakManager/master/TeamSpeak3/ts3server
 
 chmod 777 ts3server
 
-zuletzt ausführen und den Anweisungen folgen
+
+
+#Zuletzt ausführen und den Anweisungen folgen
 
 ./ts3server install
+
 
 #Weite Befehle
 
