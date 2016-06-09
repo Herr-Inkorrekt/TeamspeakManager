@@ -26,9 +26,9 @@ pushbullettoken="accesstoken"
 updateonstart="off"
 
 # Server Details
-gamename="Teamspeak 3"
-servername="Teamspeak 3 Server"
-servicename="ts3-server"
+gamename="Teamspeak-Musikbot"
+servername="Teamspeak 3 Musikbot "
+servicename="config"
 
 # Directories
 rootdir="$(dirname $(readlink -f "${BASH_SOURCE[0]}"))"
@@ -39,11 +39,10 @@ functionsdir="${lgsmdir}/functions"
 filesdir="${rootdir}/serverfiles"
 systemdir="${filesdir}"
 executabledir="${filesdir}"
-executable="./ts3server_startscript.sh"
+executable="./sinusbot"
 servercfg="${servicename}.ini"
 servercfgdir="${filesdir}"
 servercfgfullpath="${servercfgdir}/${servercfg}"
-servercfgdefault="${servercfgdir}/lgsm-default.ini"
 backupdir="${rootdir}/backups"
 
 # Logging

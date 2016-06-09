@@ -10,5 +10,5 @@ clear
 echo "================================="
 echo "${gamename}"
 echo "Teamspeak Manager"
-echo "by Blacktiger"
+echo "Herr Inkorrekt"
 echo "================================="
