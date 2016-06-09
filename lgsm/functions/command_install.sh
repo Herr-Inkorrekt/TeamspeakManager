@@ -22,8 +22,6 @@ elif [ "${gamename}" == "Unreal Tournament 99" ]; then
 	install_server_files.sh
 elif [ "${gamename}" == "Teamspeak 3" ]; then
 	install_ts3.sh
-elif [ "${gamename}" == "Teamspeak-Musikbot" ]; then
-	install_ts3musikbot.sh
 elif [ -n "${appid}" ]; then
 	install_steamcmd.sh
 	install_server_files.sh
