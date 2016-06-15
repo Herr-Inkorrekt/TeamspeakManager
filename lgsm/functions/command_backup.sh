@@ -17,7 +17,6 @@ echo "${backupdir}/${backupname}.tar.gz"
 echo ""
 
 
-done
 echo ""
 check_status.sh
 
