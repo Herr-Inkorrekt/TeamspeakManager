@@ -20,7 +20,7 @@ echo ""
 echo ""
 check_status.sh
 
-fi
+
 fn_scriptlog "Started backup"
 fn_print_dots "Backup in progress, please wait..."
 sleep 2
