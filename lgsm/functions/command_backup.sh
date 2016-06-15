@@ -16,7 +16,7 @@ fn_print_info_nl "A total of $(du -sh "${rootdir}" --exclude="${backupdir}" | aw
 echo "${backupdir}/${backupname}.tar.gz"
 echo ""
 
-esac
+
 done
 echo ""
 check_status.sh
