@@ -27,7 +27,7 @@ su - ts3server
 
 
 
-#Als nächstes die Datei runter-laden und Rechte setzten
+#Als nächstes die Datei runterladen und Rechte setzten
 
 wget https://raw.githubusercontent.com/Blacktiger21/TeamspeakManager/master/TeamSpeak3/ts3server
 
