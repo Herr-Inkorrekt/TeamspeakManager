@@ -4,92 +4,92 @@
 #Installations Anleitung
 Hinzufügen der Pakete
 
-sudo apt-get install tmux mailutils postfix curl file  libmariadb2
+<code>sudo apt-get install tmux mailutils postfix curl file  libmariadb2</code>
 
 wenn eine Fehlermeldung kommt unter Ubuntu 14.04
 dann nimmt den Befehl
 
-sudo apt-get install tmux mailutils postfix curl file
+<code>sudo apt-get install tmux mailutils postfix curl file</code>
 
 und
 
-sudo dpkg --add-architecture i386; sudo apt-get install lib32gcc1 libstdc++6:i386
+<code>sudo dpkg --add-architecture i386; sudo apt-get install lib32gcc1 libstdc++6:i386</code>
 
 
 
 
 #Neuen User Anlegen
 
-adduser ts3server
+<code>adduser ts3server</code>
 
-su - ts3server
+<code>su - ts3server</code>
 
 
 
 
 #Als nächstes die Datei runterladen und Rechte setzten
 
-wget https://raw.githubusercontent.com/Blacktiger21/TeamspeakManager/master/TeamSpeak3/ts3server
+<code>wget https://raw.githubusercontent.com/Blacktiger21/TeamspeakManager/master/TeamSpeak3/ts3server</code>
 
-chmod 777 ts3server
+<code>chmod 777 ts3server</code>
 
 
 
 #Zuletzt ausführen und den Anweisungen folgen
 
-./ts3server install
+<code>./ts3server install</code>
 
 
 #Weite Befehle
 
 Für Alle Kommands
 
-./ts3server
+<code>./ts3server</code>
 
 Zum Starten
 
-./ts3server start
+<code>./ts3server start</code>
 
 Zu Stoppen
 
-./ts3server stop
+<code>./ts3server stop</code>
 
 Für den Restart
 
-./ts3server restart
+<code>./ts3server restart</code>
 
 Für Infos über den Server
 
-./ts3server details
+<code>./ts3server details</code>
 
 Der Debug modus
 
-./ts3server debug
+<code>./ts3server debug</code>
 
 Für ein Backup
 
-./ts3server backup
+<code>./ts3server backup</code>
 
 #Hier findest du die log Datein
 
-/home/ts3server/logs
+<code>/home/ts3server/logs</code>
 
 #Um Befehle zu Automatisieren tippt ihr folgendes ein
 
-crontab -e
+<code>crontab -e</code>
 
 wichtig! Tausche den Username Und Gameserver Gehen deine Einstellungen aus
 
 Hier ist ein Beispiel von einem Automatisierten Befehl der jede 3 Minuten ausgeführt wird
 
-*/3 * * * * /home/username/gameserver monitor > /dev/null 2>&1
+<code>*/3 * * * * /home/username/gameserver monitor > /dev/null 2>&1</code>
 
 das ist ein Beispiel auf root Basis der auch jede 3 Minuten ausgeführt wird
 
-*/3 * * * * su - username -c '/home/username/gameserver monitor' > /dev/null 2>&1
+<code>*/3 * * * * su - username -c '/home/username/gameserver monitor' > /dev/null 2>&1</code>
 
 für ein Tägliches Backup Diesen befehl nutzen
 
 
-. * 0 * * * /home/username/gameserver monitor > /dev/null 2>&1
+<code>. * 0 * * * /home/username/gameserver monitor > /dev/null 2>&1</code>
 
